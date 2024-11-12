@@ -1,14 +1,24 @@
 {
   "name": "mongoose-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
-  
   },
   "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarielMera/mongoose-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarielMera/mongoose-tutorial/issues"
+  },
+  "homepage": "https://github.com/DarielMera/mongoose-tutorial#readme",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.8.1"
+  }
 }
