@@ -17,6 +17,6 @@ import Blog from './model/model/Blog.js';
     // article.title = 'How to use Mongoose with Node.js';
     // await article.save();
 
-const article = await Blog.findById('6734512165afdcf256b97265').exec();
-
+const article = await Blog.deleteMany
+({ title: 'How to use Mongoose' });
     console.log(article);
